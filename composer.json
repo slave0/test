@@ -1,0 +1,21 @@
+{
+    "name": "sidorov/sitemap",
+    "description": "test composer",
+    "type": "library",
+    "require": {
+        "php": "^7.1"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sidorov",
+            "email": "slave.1999@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sitemap\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
